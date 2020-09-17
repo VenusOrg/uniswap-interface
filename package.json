@@ -1,6 +1,6 @@
 {
   "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "description": "Venus Exchange",
   "homepage": ".",
   "private": true,
   "devDependencies": {

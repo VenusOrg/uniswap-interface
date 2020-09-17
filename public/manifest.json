@@ -3,14 +3,14 @@
   "name": "Uniswap",
   "icons": [
     {
-      "src": "./images/192x192_App_Icon.png",
-      "sizes": "192x192",
+      "src": "./images/200x200_App_Icon.png",
+      "sizes": "200x200",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./images/512x512_App_Icon.png",
-      "sizes": "512x512",
+      "src": "./images/520x520_App_Icon.png",
+      "sizes": "520x520",
       "type": "image/png",
       "purpose": "any maskable"
     }

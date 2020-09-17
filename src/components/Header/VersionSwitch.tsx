@@ -31,7 +31,7 @@ const VersionToggle = styled(({ enabled, ...rest }: VersionToggleProps) => <Link
   cursor: ${({ enabled }) => (enabled ? 'pointer' : 'default')};
   background: ${({ theme }) => theme.bg3};
   color: ${({ theme }) => theme.primary1};
-  display: flex;
+  display: none;
   width: fit-content;
   margin-left: 0.5rem;
   text-decoration: none;
@@ -71,6 +71,6 @@ export default function VersionSwitch() {
   return versionSwitchAvailable ? (
     toggle
   ) : (
-    <MouseoverTooltip text="This page is only compatible with Uniswap V2.">{toggle}</MouseoverTooltip>
+    <MouseoverTooltip text="This page is only compatible with Venus V2.">{toggle}</MouseoverTooltip>
   )
 }

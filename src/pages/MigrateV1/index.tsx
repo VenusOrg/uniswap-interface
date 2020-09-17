@@ -73,12 +73,12 @@ export default function MigrateV1() {
           <BackArrow to="/pool" />
           <TYPE.mediumHeader>Migrate V1 Liquidity</TYPE.mediumHeader>
           <div>
-            <QuestionHelper text="Migrate your liquidity tokens from Uniswap V1 to Uniswap V2." />
+            <QuestionHelper text="Migrate your liquidity tokens from Venus V1 to Venus V2." />
           </div>
         </AutoRow>
 
         <TYPE.body style={{ marginBottom: 8, fontWeight: 400 }}>
-          For each pool shown below, click migrate to remove your liquidity from Uniswap V1 and deposit it into Uniswap
+          For each pool shown below, click migrate to remove your liquidity from Venus V1 and deposit it into Venus
           V2.
         </TYPE.body>
 
